@@ -17,6 +17,7 @@ export class DataComponent implements OnInit {
     this.age=38
     this.Email="arun@gmail.com"
     this.address={houseno:"adc354",street:"line45",district:"ktm"}
+    this.hobbies=["reading","travelling"]
     
   }
   

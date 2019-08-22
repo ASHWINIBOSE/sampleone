@@ -3,9 +3,13 @@
 </p>
 <h2>the name of employee :{{Name}}</h2> 
 <h2>age of the employee :{{age}}</h2>
-<h2>email ID :{{email}}</h2>
+<h2>email ID :{{Email}}</h2>
 <h2>Address  :</h2>
 <h3>{{address.houseno}},{{address.street}},{{address.district}}</h3>
+<h2>hobbies :</h2>
+<table>
+  <tr *ngFor="let hb of hobbies">{{hb}}</tr>
+</table>
 
  
 
